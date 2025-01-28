@@ -1,6 +1,8 @@
 import numpy as np
 import random
 
+# noiid EXTR noiid-skew SEVE noiid-skew2 MODE
+
 def partition_data(partition, n_train, n_parties, train_label, beta = 0.5, skew_class = 2):
     if partition == "homo" or partition == "iid":
         idxs = np.random.permutation(n_train)
